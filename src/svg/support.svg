@@ -828,16 +828,115 @@
 									</g>
 									<g>
 <!-- SUN-->										<rect x="118.7" y="30.2" class="st0" width="1.9" height="28.8"/>
-										<circle cx="126" cy="38" r="78" fill="#fff" opacity=".01" />
-										<circle cx="126" cy="38" r="72" fill="#fff" opacity=".02" />
-										<circle cx="126" cy="38" r="66" fill="#fff" opacity=".03" />
-										<circle cx="126" cy="38" r="60" fill="#fff" opacity=".04" />
-										<circle cx="126" cy="38" r="54" fill="#fff" opacity=".05" />
-										<circle cx="126" cy="38" r="48" fill="#fff" opacity=".06" />
-										<circle cx="126" cy="38" r="42" fill="#fff" opacity=".07" />
-										<circle cx="126" cy="38" r="36" fill="#fff" opacity=".08" />
-										<circle cx="126" cy="38" r="30" fill="#fff" opacity=".09" />
-										<circle cx="126" cy="38" r="24" fill="#fff" opacity=".1" />
+										<circle cx="126" cy="38" r="24" fill="#fff" opacity=".1">
+											<animate 
+												attributeName="opacity"
+												to="0.01"
+												dur="5s"
+												repeatCount="indefinite" />
+											<animate 
+												attributeName="r"
+												to="78"
+												dur="5s"
+												repeatCount="indefinite" />	
+										</circle>
+										<circle cx="126" cy="38" r="24" fill="#fff" opacity=".1">
+											<animate 
+												attributeName="opacity"
+												to="0.02"
+												dur="5s"
+												repeatCount="indefinite" />
+											<animate 
+												attributeName="r"
+												to="72"
+												dur="5s"
+												repeatCount="indefinite" />
+										</circle>
+										<circle cx="126" cy="38" r="24" fill="#fff" opacity=".1">
+											<animate 
+												attributeName="opacity"
+												to="0.03"
+												dur="5s"
+												repeatCount="indefinite" />
+											<animate 
+												attributeName="r"
+												to="66"
+												dur="5s"
+												repeatCount="indefinite" />
+										</circle>
+										<circle cx="126" cy="38" r="24" fill="#fff" opacity=".1">
+											<animate 
+												attributeName="opacity"
+												to="0.04"
+												dur="5s"
+												repeatCount="indefinite" />
+											<animate 
+												attributeName="r"
+												to="60"
+												dur="5s"
+												repeatCount="indefinite" />
+										</circle>
+										<circle cx="126" cy="38" r="24" fill="#fff" opacity=".1">
+											<animate 
+												attributeName="opacity"
+												to="0.05"
+												dur="5s"
+												repeatCount="indefinite" />
+											<animate 
+												attributeName="r"
+												to="54"
+												dur="5s"
+												repeatCount="indefinite" />
+										</circle>
+										<circle cx="126" cy="38" r="24" fill="#fff" opacity=".1">
+											<animate 
+												attributeName="opacity"
+												to="0.06"
+												dur="5s"
+												repeatCount="indefinite" />
+											<animate 
+												attributeName="r"
+												to="48"
+												dur="5s"
+												repeatCount="indefinite" />
+										</circle>
+										<circle cx="126" cy="38" r="24" fill="#fff" opacity=".1">
+											<animate 
+												attributeName="opacity"
+												to="0.07"
+												dur="5s"
+												repeatCount="indefinite" />
+											<animate 
+												attributeName="r"
+												to="42"
+												dur="5s"
+												repeatCount="indefinite" />
+										</circle>
+										<circle cx="126" cy="38" r="24" fill="#fff" opacity=".1">
+											<animate 
+												attributeName="opacity"
+												to="0.08"
+												dur="5s"
+												repeatCount="indefinite" />
+											<animate 
+												attributeName="r"
+												to="36"
+												dur="5s"
+												repeatCount="indefinite" />
+										</circle>
+										<circle cx="126" cy="38" r="24" fill="#fff" opacity=".1">
+											<animate 
+												attributeName="opacity"
+												to="0.09"
+												dur="5s"
+												repeatCount="indefinite" />
+											<animate 
+												attributeName="r"
+												to="30"
+												dur="5s"
+												repeatCount="indefinite" />
+										</circle>
+										<circle cx="126" cy="38" r="10" fill="#fff" opacity=".1" />
 										<rect x="131.3" y="30.2" class="st0" width="1.9" height="28.8"/>
 									</g>
 								</g>
