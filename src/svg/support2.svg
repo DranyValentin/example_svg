@@ -828,13 +828,14 @@
 									</g>
 									<g>
 <!-- SUN-->										<rect x="118.7" y="30.2" class="st0" width="1.9" height="28.8"/>
-										<circle cx="126" cy="38" r="24" fill="remove" stroke="#fff" stroke-width="30" stroke-linecap="round" opacity=".1">
+										<circle cx="126" cy="38" r="45" opacity=".01" fill="#fff">
 											<animate 
 												attributeName="opacity"
-												to="0.01"
 												dur="5s"
+												begin="0.1s"
+												values="0.01;.1;0.01"
 												repeatCount="indefinite" />
-											<animate 
+<!--											<animate 
 												attributeName="r"
 												to="78"
 												dur="5s"
@@ -844,8 +845,28 @@
 												to="3"
 												dur="5s"
 												repeatCount="indefinite" />		
+-->										</circle>
+<!--										<circle cx="126" cy="38" r="15" fill="remove" stroke="#fff" stroke-width="30" stroke-linecap="round" opacity=".1">
+											<animate 
+												attributeName="opacity"
+												to="0.01"
+												dur="5s"
+												begin="1s"
+												repeatCount="indefinite" />
+											<animate 
+												attributeName="r"
+												to="78"
+												dur="5s"
+												begin="1s"
+												repeatCount="indefinite" />
+												<animate 
+												attributeName="stroke-width"
+												to="3"
+												dur="5s"
+												begin="1s"
+												repeatCount="indefinite" />		
 										</circle>
-<!--										<circle cx="126" cy="38" r="24" fill="#fff" opacity=".02">
+--><!--										<circle cx="126" cy="38" r="24" fill="#fff" opacity=".02">
 											<animate 
 												attributeName="opacity"
 												to="0.1"
@@ -941,13 +962,13 @@
 												dur="5s"
 												repeatCount="indefinite" />
 										</circle>
--->										<circle cx="126" cy="38" r="15" fill="#fff" opacity=".1">
+										<circle cx="126" cy="38" r="15" fill="#fff" opacity=".1">
 	<animate 
 		attributeName="opacity"
 		to="0.01"
 		dur="5s" />
 </circle>
-										<rect x="131.3" y="30.2" class="st0" width="1.9" height="28.8"/>
+-->										<rect x="131.3" y="30.2" class="st0" width="1.9" height="28.8"/>
 									</g>
 								</g>
 								<g>

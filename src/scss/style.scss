@@ -9,7 +9,14 @@ body
 	justify-content: center;
 }
 
-.img, .img1, .img2, .img3, .img_support
+.img, 
+.img1, 
+.img2, 
+.img3, 
+.img_support,
+.img_support1,
+.img_support2,
+.img_support3
 {
 	width: 33%; 
 	display: block;
@@ -18,16 +25,26 @@ body
 	margin-bottom: 30px;
 }
 
-.img, .img1, .img2, .img3
+.img
+,.img1,
+,.img2,
+,.img3,
+/*,.img_support*/
 {
 	display: none;
 }
 
-div
+.design
 {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	
+	flex-wrap: wrap;
+}
+
+.support
+{
+	display: flex;
+	flex-wrap: wrap;
 }
 
