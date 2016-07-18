@@ -9,13 +9,14 @@ body
 	justify-content: center;
 }
 
-.img, .img1, .img2 
+.img, .img1, .img2, img3
 {
 
 	width: 33%; 
 	display: block;
 
 	padding: 30px;
+	margin-bottom: 30px;
 }
 
 .img2
@@ -28,5 +29,6 @@ div
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	
 }
 
