@@ -828,7 +828,7 @@
 									</g>
 									<g>
 <!-- SUN-->										<rect x="118.7" y="30.2" class="st0" width="1.9" height="28.8"/>
-										<circle cx="126" cy="38" r="45" opacity=".01" fill="#fff">
+										<circle cx="126" cy="38" r="75" opacity=".01" fill="#fff">
 											<animate 
 												attributeName="opacity"
 												dur="5s"

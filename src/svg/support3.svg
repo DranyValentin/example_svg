@@ -828,20 +828,36 @@
 									</g>
 									<g>
 <!-- SUN-->										<rect x="118.7" y="30.2" class="st0" width="1.9" height="28.8"/>
-										<circle cx="126" cy="38" r="45" opacity=".1" fill="#fff">
+										<circle cx="126" cy="38" r="45" opacity=".05" fill="#fff">
 											<animate 
 												attributeName="opacity"
 												dur="5s"
 												begin="0.1s"
-												values="0.1;.01;0.1"
+												values="0.05;.01;0.05"
 												repeatCount="indefinite" />
 										</circle>
-										<circle cx="126" cy="38" r="55" opacity=".1" fill="#fff">
+										<circle cx="126" cy="38" r="55" opacity=".05" fill="#fff">
 											<animate 
 												attributeName="opacity"
 												dur="5s"
 												begin="0.2s"
-												values="0.1;.01;0.1"
+												values="0.05;.01;0.05"
+												repeatCount="indefinite" />
+										</circle>
+										<circle cx="126" cy="38" r="65" opacity=".05" fill="#fff">
+											<animate 
+												attributeName="opacity"
+												dur="5s"
+												begin="0.2s"
+												values="0.05;.01;0.05"
+												repeatCount="indefinite" />
+										</circle>
+										<circle cx="126" cy="38" r="75" opacity=".05" fill="#fff">
+											<animate 
+												attributeName="opacity"
+												dur="5s"
+												begin="0.2s"
+												values="0.05;.01;0.05"
 												repeatCount="indefinite" />
 										</circle>
 <!--										<circle cx="126" cy="38" r="15" fill="remove" stroke="#fff" stroke-width="30" stroke-linecap="round" opacity=".1">
