@@ -28,13 +28,13 @@ body
 	margin-bottom: 30px;
 }
 
-/*.img_demo
-,*/.img_design
+.img_demo
+,.img_design
 ,.img_design1
 ,.img_design2
 ,.img_design3
-,.img_support/*
-,.img_support1
+,.img_support
+,.img_support1/*
 ,.img_support11*/
 ,.img_support2
 ,.img_support3
@@ -53,15 +53,19 @@ body
 
 .support
 {
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 
 /////////////////
 /////////////////////////
 ////////////////
-.ship
+.img_support11
 {
-	background: red;
+	display: flex;
+	justify-contint: center;
+	align-items: center;
 }
