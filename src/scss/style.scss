@@ -21,6 +21,7 @@ body
 ,.img_support2
 ,.img_support3
 ,.img_support4
+,.img_blowball
 {
 	width: 33%; 
 	display: block;
@@ -35,17 +36,19 @@ body
 ,.img_design2
 ,.img_design3
 ,.img_support
-,.img_support1/*
+,.img_support1
 ,.img_support11
-,.img_support12*/
+,.img_support12
 ,.img_support2
 ,.img_support3
-,.img_support4
+,.img_support4/*
+,.img_blowball*/
 {
 	display: none;
 }
 
-.design
+.design,
+.blowball
 {
 	width: 100%;
 	display: flex;
@@ -65,9 +68,3 @@ body
 /////////////////
 /////////////////////////
 ////////////////
-.img_support11
-{
-	display: flex;
-	justify-contint: center;
-	align-items: center;
-}
