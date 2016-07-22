@@ -1,0 +1,26 @@
+@import "includes/settings";
+
+$n: 3;
+$α: 360deg/$n;
+$β: random($α/1deg) * 1deg;
+
+@for $i from 1 through $n {
+	$y: $β + ($i - 1) * $α;
+
+	use:nth-of-type(#{$i})
+	{
+		fill: hsl($y, 100%, 80%);
+		animation: ani-#{$i} 4s linear infinite;
+	}
+
+	@keyframes ani-#{$i}
+	{
+		0% { transform: scale(0); }
+		25% { transform: scale(1); }
+		50% { transform: rotate($y); }
+		75%, 100% { transform: rotate($y) translate(13em) scale(.2) }
+		83% { transform: rotate($y) translate(13em) scale(.2) skewY(30deg) scaleX(.866)}
+		91% { transform: rotate($y) translate(13em) scale(.2) skewY(60deg) scaleX(.5)}
+		100% { transform: rotate($y) translate(13em) scale(.2) skewY(90deg) scaleX(0)}
+	}
+}
