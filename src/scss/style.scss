@@ -22,6 +22,7 @@ body
 ,.img_support3
 ,.img_support4
 ,.img_blowball
+,.img_develop
 {
 	width: 33%; 
 	display: block;
@@ -30,8 +31,8 @@ body
 	margin-bottom: 30px;
 }
 
-/*.img_demo
-,*/.img_design
+.img_demo
+,.img_design
 ,.img_design1
 ,.img_design2
 ,.img_design3
@@ -42,14 +43,16 @@ body
 ,.img_support2
 ,.img_support3
 ,.img_support4
-,.img_blowball
+,.img_blowball/*
+,.img_develop*/
 {
 	display: none;
 }
 
 .design,
 .support,
-.blowball
+.blowball,
+.develop
 {
 	width: 100%;
 	display: flex;
