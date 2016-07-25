@@ -22,6 +22,7 @@ body
 ,.img_support3
 ,.img_support4
 ,.img_blowball
+,.img_text
 {
 	width: 33%; 
 	display: block;
@@ -43,13 +44,15 @@ body
 ,.img_support3
 ,.img_support4
 ,.img_blowball
+,.img_text
 {
 	display: none;
 }
 
 .design,
 .support,
-.blowball
+.blowball,
+.img_text
 {
 	width: 100%;
 	display: flex;
