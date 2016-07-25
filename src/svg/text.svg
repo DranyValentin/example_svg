@@ -3,13 +3,38 @@
 	width="692.9px" height="51px" 
 	viewBox="0 0 692.9 51">
 	<style type="text/css">
-		.st0{fill:#FFFFFF;}
-		.st1{font-family:'OpenSans-Light';}
-		.st2{font-size:31.7569;}
-		.st3{opacity:0.48;fill:#FFFFFF;}
+		
 	</style>
-	<text transform="matrix(1 0 0 1 5.6192 38.1289)">
-		<tspan x="0" y="0" class="st0 st1 st2">SMART-SITE.Pro </tspan>
-		<tspan x="246.5" y="0" class="st3 st1 st2">f  e   s    s     i      o       n        a </tspan>
+	<rect x="0" y ="0" width="692.9" height="51" stroke="red" fill="none" />
+	<text x="0" y="30" fill="#ffffff" font-size="31.7569" font-family="OpenSans-Light" >
+		SMART-SITE.PRO
+		<tspan id="aaa" dx="0 12 13 14 15 16 17 18 19" fill-opacity=".48">FESSIONAL
+			<animate 
+				attributeName="dx"
+				dur="20s"
+				begin="0s"
+				values="0 12 13 14 15 16 17 18 19;
+						0 12 13 14 15 16 17 100 200;
+						0 12 13 14 15 50 100 200 200;
+						0 12 13 25 50 100 200 200 200;
+						0 15 25 50 100 200 200 200 200;
+						15 25 50 100 200 200 200 200 200;
+						25 50 100 200 200 200 200 200 200;
+						50 100 200 200 200 200 200 200 200;
+						200 400 200 200 200 200 200 200 200;
+						500 400 200 200 200 200 200 200 200"
+				keyTimes="0;
+					      .11;
+						  .22;
+						  .33;
+						  .44;
+						  .55;
+						  .66;
+						  .77;
+						  .88;
+						  1"
+				fill="freeze"/>
+		</tspan>
+		
 	</text>
 </svg>
