@@ -9,7 +9,8 @@ body
 	justify-content: center;
 }
 
-.img_demo
+.img_demo1
+,.img_demo2
 ,.img_design
 ,.img_design1
 ,.img_design2
@@ -32,7 +33,8 @@ body
 	margin-bottom: 30px;
 }
 
-.img_demo
+.img_demo1
+,.img_demo2
 ,.img_design
 ,.img_design1
 ,.img_design2
@@ -45,8 +47,8 @@ body
 ,.img_support3
 ,.img_support4
 ,.img_text
-,.img_blowball/*
-,.img_develop*/
+,.img_blowball
+,.img_develop
 {
 	display: none;
 }
@@ -54,8 +56,7 @@ body
 .design,
 .support,
 .blowball,
-,.img_text
-,.develop
+.develop
 {
 	width: 100%;
 	display: flex;
@@ -68,4 +69,5 @@ body
 	width: 50%;
 	margin: 0 auto;
 }
+
 

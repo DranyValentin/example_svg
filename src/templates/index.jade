@@ -4,9 +4,10 @@ html
 		title SVG animation
 		meta(charset='utf-8')
 		link(rel="stylesheet", href="css/style.css")
-		link(rel="stylesheet", href="css/svg.css")
+		script(src="js/index.js", defer)
 	body 
-		img(src="svg/demo1.svg" class="img_demo")
+		img(src="svg/demo1.svg" class="img_demo1")
+		img(src="svg/demo2.svg" class="img_demo2")
 		.design
 			img(src="svg/design.svg" class="img_design")
 			img(src="svg/design1.svg" class="img_design1")
@@ -26,3 +27,5 @@ html
 			img(src="svg/develop.svg" class="img_develop")
 		.text
 			img(src="svg/text.svg" class="img_text")
+		include ./../svg/text.svg
+		
